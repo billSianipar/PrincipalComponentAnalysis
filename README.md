@@ -1,7 +1,7 @@
-# Wine class prediction using Support Vector Machine - Machine Learnign method.
+# PCA (Principal Component Analysis) on breast cancer dataset.
 
-`Support Vector Machine is used using polynomial kernel or the radial basis function kernel to generate Support Vector Classifier that later will be used to classify the data into classes.`
+`This notebook shows how PCA method can in a way "shrink" the number of column of the dataset. Shrinking in this case doesn't mean that the method eliminates the unnecessary columns, and leave the necessary ones. Rather, it just transforms the dataset to n-dimensional dataset. And the transformed dataset represents the relationship inside the original dataset (e.g. a 30-dimensional dataset) in just n number of columns (e.g. a 2-dimensional dataset).`
 
-`The method most of the time relies on how scaled the data in the dataset is (since it's based on gradient descent algorithm), and also its hyperparameter values.`
+`And by doing that, PCA can measure how much each column of the original dataset affect the relationship inside the dataset.`
 
-`This notebook shows how to apply the models using python to predict wine class using given features. The dataset is from the sklearn.datasets library.`
+`This notebook shows how to apply the method on the breast cancer dataset provided by Scikit learn library.`
